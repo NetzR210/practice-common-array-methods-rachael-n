@@ -12,16 +12,16 @@ console.log("Number of pastries:", orders[1].length);
 
 // Task 3 Access Orders Using Bracket Notation
 
-console.log("First drink:", orders[0][0]); // Example: Latte
-console.log("Last pastry:", orders[1][2]); // Example: Bagel
-console.log("Second drink:", orders[0][1]); // Example: Tea
-console.log("First pastry:", orders[1][0]); // Example: Croissant
-console.log("Third drink:", orders[0][2]); // Example: Espresso
+console.log("First drink:", orders[0][0]); // Latte
+console.log("Last pastry:", orders[1][2]); // Bagel
+console.log("Second drink:", orders[0][1]); // Tea
+console.log("First pastry:", orders[1][0]); // Croissant
+console.log("Third drink:", orders[0][2]); // Espresso
 
 // Task 4 Access Orders Dynamically with Variables
 
-let drinkIndex = 1; // Dynamically choose the second drink (Tea)
-let pastryIndex = 0; // Dynamically choose the first pastry (Croissant)
+let drinkIndex = 1; // Dynamically choose the second drink 
+let pastryIndex = 0; // Dynamically choose the first pastry 
 console.log("Selected drink:", orders[0][drinkIndex]);
 console.log("Selected pastry:", orders[1][pastryIndex]);
 
